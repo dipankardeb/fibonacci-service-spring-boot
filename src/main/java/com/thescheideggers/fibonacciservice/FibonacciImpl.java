@@ -22,7 +22,7 @@ package com.thescheideggers.fibonacciservice;
 /**
  * This is the algorithmic implementation to create a Fibonacci Sequence.
  *
- * @author <a href="mailto:William.Scheidegger@GMail.com?subject=FibonacciImpl%20JavaDoc">William Scheidegger</a>
+
  */
 public class FibonacciImpl {
     ///**
