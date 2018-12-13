@@ -22,9 +22,8 @@ This section includes the instructions necessary to build and have the web servi
     - `curl -iv http://localhost:8080/fibonacci/50`
     - `curl -iv http://localhost:8080/fibonacci/100`
 
-## Further Reading
 
- - http://tomee.apache.org/examples-trunk/rest-xml-json/README.html
- - http://vichargrave.com/restful-web-service-development-with-netbeans-and-tomcat-tutorial/
- - http://engineering.tango.me/post/25683784643/restful-services-with-json-xml-content
- - http://blog.webstarworks.com/2014/02/testing-the-jax-rs-restful-web-service
+## JS CODE : 
+run the js code like  http://localhost:8080/fibonacci/js/index.htm?n=10
+
+
