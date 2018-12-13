@@ -28,8 +28,7 @@ import static org.junit.Assert.*;
 /**
  * This is the Known Answer Test (KAT) for the Fibonacci Sequence Implementation.</p>
  *
- * @author <a href="mailto:William.Scheidegger@GMail.com?subject=FibonacciImplTest%20JavaDoc">William Scheidegger</a>
- */
+  */
 public class FibonacciImplTest {
     /**
      * Class name.
