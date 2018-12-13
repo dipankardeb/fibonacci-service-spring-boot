@@ -26,7 +26,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * Since JAX-RS supports automatic mapping from a JAXB annotated class to XML and JSON,
  * some of the magic is already taken care of.
  *
- * @author <a href="mailto:William.Scheidegger@GMail.com?subject=FibonacciResponseArray%20JavaDoc">William Scheidegger</a>
+
  */
 @XmlRootElement(name="FibonacciResponse")
 public class FibonacciResponseArray extends FibonacciResponse {
