@@ -1,0 +1,40 @@
+<html>
+ <head><title>Fibonacci Series</title></head>
+ <body>
+	<script type="text/javascript">
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
+
+		var var1 = 0;
+		var var2 = 1;
+		var var3;
+
+		var num = getUrlVars()["n"];;
+		
+		
+               // var obj = '['+var1+','+var2;
+               var cars = [var1, var2];           
+
+		for(var i=3; i <= num;i++)
+		{
+			var3 = var1 + var2;
+			var1 = var2;
+			var2 = var3;
+			
+                       // obj += ','+var3;
+                        cars[i-1] = var3;
+			//document.write(var3+"<br />");
+		}
+                 
+                  //obj += ']';
+                  document.write(JSON.stringify(cars));
+	</script>
+
+ </body>
+</html>
