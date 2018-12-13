@@ -24,7 +24,7 @@ package com.thescheideggers.fibonacciservice;
  * Since JAX-RS supports automatic mapping from a JAXB annotated class to XML and JSON,
  * some of the magic is already taken care of.
  *
- * @author <a href="mailto:William.Scheidegger@GMail.com?subject=FibonacciResponse%20JavaDoc">William Scheidegger</a>
+
  */
 public abstract class FibonacciResponse {
     /**
